@@ -108,6 +108,84 @@ h2{
 .grupo2{
     text-align: center;
 }
+.valores_video{
+    display: flex;
+}
+.valores_titulo{
+padding-left: 3rem;
+font-weight: bold;
+}
+.valores p{
+    padding-left: 3rem;
+    font-size: 1.3rem;
+    padding-right: 3rem;
+}
+.valores ul{
+    list-style-type: none;
+    padding-left: 4rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.video{
+    display: flex;
+    justify-content: end;
+    height: 30rem;
+    padding-right: 2rem;
+}
+.hacemos_titulo{
+    font-weight: bold;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    color: black;
+}
+.main_nosotros p{
+    padding-left: 3rem;
+    font-size: 1.3rem;
+    padding-right: 3rem;
+    color: black;
+}
+.hacemos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.hacemos img{
+    height: 15rem;
+    width: 30rem;
+    padding-bottom: 0.5rem;
+}
+.hacemos p{
+    color: black;
+}
+.datos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: large;
+    color: black;
+}
+.datos img{
+    height: 3rem;
+    width: 3rem;
+}
+.mapform{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+iframe{
+    width: 25rem;
+    height: 15rem;
+}
+form{
+    padding: 2rem;
+}
 @media screen and (max-width:768px){
     .img_obras{
         flex-direction: column;
