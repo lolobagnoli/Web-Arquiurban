@@ -17,6 +17,9 @@
 }
 body{
     font-family: 'Kanit', sans-serif;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 150px;
 }
 h2{
     text-align: center;
@@ -76,6 +79,9 @@ h2{
 .card1{
     opacity: .3;
 }
+.card1 img{
+    height: 220px;
+}
 .card1:hover{
     opacity: 1;
 }
@@ -83,6 +89,12 @@ h2{
     grid-area: footer;
     background-color: #8b8784;
     color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.cel{
+    text-decoration: none;
 }
 .grupo1{
     max-width: 1200px;
