@@ -32,7 +32,7 @@ h2{
 }
 .navbar-brand{
     margin-left:10%;
-    margin-right: 18%;
+    margin-right: 20%;
 }
 .navbar-brand img{
     height: 12rem;
@@ -169,7 +169,8 @@ font-weight: bold;
 #form{
     text-align: left;
     padding-left: 4rem;
-    padding-bottom: 6rem;
+    padding-bottom: 6.5rem;
+    justify-content: center;
 }
 .port_enej{
     width: 100%;
