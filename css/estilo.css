@@ -55,6 +55,7 @@ h2{
 }
 .main_inicio{
     grid-area: main;
+    padding-bottom: 4rem;
 }
 .img_obras{
     display: grid;
@@ -74,12 +75,17 @@ h2{
 }
 .portada_obras img{
     width: 100%;
-    height: 800px;
 }
-#obras_img img{
+#obras_cro{
+    padding-left: 2.5rem;
+    padding-bottom: 4rem;
+}
+#obras_cro img{
+    width: 90%;
+    height: 250px;
     opacity: .3;
 }
-#obras_img img:hover{
+#obras_cro img:hover{
     opacity: 1;
 }
 .footer{
@@ -97,9 +103,9 @@ h2{
     grid-template-columns: repeat(3,1fr);
     grid-template-areas: 
     "cel redes mail";
-    grid-gap: 50px;
-    padding: 45px 0px;
+    padding: 1rem 0rem;
     font-weight: bold;
+    padding-top: 5%;
 }
 .box{
     text-align: center;
@@ -118,9 +124,6 @@ h2{
 .grupo2{
     text-align: center;
 }
-.valores_video{
-    display: flex;
-}
 .valores_titulo{
 padding-left: 3rem;
 font-weight: bold;
@@ -135,12 +138,6 @@ font-weight: bold;
     padding-left: 4rem;
     font-weight: bold;
     font-size: 1.2rem;
-}
-.video{
-    display: flex;
-    justify-content: end;
-    height: 30rem;
-    padding-right: 2rem;
 }
 .hacemos_titulo{
     font-weight: bold;
@@ -169,32 +166,10 @@ font-weight: bold;
 .hacemos p{
     color: black;
 }
-/*.datos{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    text-align: center;
-    font-size: large;
-    color: black;
-}
-.datos img{
-    height: 3rem;
-    width: 3rem;
-}*/
-.mapform{
-    display: flex;
-    justify-content: space-evenly;
-    color: black;
-}
-iframe{
-    width: 25rem;
-    height: 15rem;
-    padding-top: 2rem;
-}
-form{
-    padding: 2rem;
-    margin-bottom: 1rem;
+#form{
+    text-align: left;
+    padding-left: 4rem;
+    padding-bottom: 6rem;
 }
 .port_enej{
     width: 100%;
@@ -202,6 +177,23 @@ form{
 .texto_enej{
     padding: 0rem 2rem;
     color: #8b8784;
+}
+#inicio_obras{
+    padding-left: 2.5rem;
+}
+#inicio_obras img{
+    width: 90%;
+    height: 250px;
+}
+#un{
+    margin-bottom: 5rem;
+}
+#un img{
+    width: 400px;
+    height: 250px;
+}
+#galeria{
+    margin-bottom: 1rem;
 }
 #galeria .col-lg-3{
     padding: 25px;
@@ -212,16 +204,12 @@ form{
 }
 .brochure{
     text-align: center;
-    padding-bottom: 1rem;
 }
 .row{
     margin-top: 2rem;
     font-size: 1.2rem;
     text-align: center;
     width: 100%;
-}
-.box p{
-    text-decoration: none;
 }
 .row img{
     height: 3rem;
@@ -264,7 +252,7 @@ form{
         margin: 0px;
     }
     .box{
-        padding: 20px 0px;
+        padding: 5px 0px;
     }
 }
 @media screen and (max-width:1024px){
