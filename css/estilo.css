@@ -168,9 +168,8 @@ font-weight: bold;
 }
 #form{
     text-align: left;
-    padding-left: 4rem;
+    padding-left: 1rem;
     padding-bottom: 6.5rem;
-    justify-content: center;
 }
 .port_enej{
     width: 100%;
