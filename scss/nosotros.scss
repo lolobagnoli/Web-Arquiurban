@@ -1,0 +1,56 @@
+h2{/*nosotros*/
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding-top: 10px;  
+}
+.valores_titulo{
+    padding-left: 3rem;
+    font-weight: bold;
+}
+section{
+    div{
+        .valores{
+            p{
+                padding-left: 3rem;
+                font-size: 1.3rem;
+                padding-right: 3rem;
+            }
+            ul{
+                list-style-type: none;
+                padding-left: 4rem;
+                font-weight: bold;
+                font-size: 1.2rem;   
+            }
+        }
+    }
+}
+.main_nosotros{
+    .hacemos_titulo{
+        font-weight: bold;
+        padding-top: 2rem;
+        padding-left: 3rem;
+        color: black;
+    }
+    p{
+        padding-left: 3rem;
+        font-size: 1.3rem;
+        padding-right: 3rem;
+        color: black;
+    }
+    #un{
+        margin-bottom: 5rem;
+        .row{
+            margin-top: 2rem;
+            font-size: 1.2rem;
+            text-align: center;
+            width: 100%;
+            div{
+                img{
+                    width: 380px;
+                    height: 250px;
+                }
+            }
+        }
+    }
+}

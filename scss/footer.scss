@@ -1,0 +1,36 @@
+.footer{
+    grid-area: footer;
+    background-color: #8b8784;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    .grupo1{
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-areas: 
+        "cel redes mail";
+        padding: 1rem 0rem;
+        font-weight: bold;
+        padding-top: 5%;
+        .box{
+            text-align: center;
+            a{
+                text-decoration: none;
+                img{
+                    height: 2rem;
+                    padding-left: 1rem;
+                    padding-right: 1rem;   
+                }   
+            }
+            p{
+                text-decoration: none;  
+            }
+        }
+    }
+    .grupo2{
+        text-align: center;
+    } 
+}

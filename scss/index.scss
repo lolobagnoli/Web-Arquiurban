@@ -1,0 +1,23 @@
+.main_inicio{/*index*/
+    grid-area: main;
+    padding-bottom: 4rem;
+    h2{
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        padding-top: 10px;
+    }
+    #inicio_obras{
+        padding-left: 2.5rem;
+        .row{
+            margin-top: 2rem;
+            font-size: 1.2rem;
+            text-align: center;
+            width: 100%;
+            img{
+                width: 90%;
+                height: 250px;
+            }
+        }
+    }
+}

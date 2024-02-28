@@ -1,0 +1,75 @@
+h2{/*contactanos*/
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding-top: 10px;
+}
+section{
+    .row{
+        margin-top: 2rem;
+        font-size: 1.2rem;
+        text-align: center;
+        width: 100%;  
+        img{
+            height: 3rem;
+            width: 3rem;
+        }
+    }
+}
+div{
+    #form{
+        text-align: left;
+        margin: 1rem;
+        padding-left: 1rem;/*arreglar*/
+        padding-bottom: 6.5rem;   
+    }
+}
+.footer{
+    grid-area: footer;
+    background-color: #8b8784;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    .grupo1{
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-areas: 
+        "cel redes mail";
+        padding: 1rem 0rem;
+        font-weight: bold;
+        padding-top: 5%;
+        @include tablet{
+            grid-template-rows: repeat(3,1fr);
+            grid-template-columns: 1fr;
+            grid-template-areas: 
+            "cel"
+            "redes" 
+            "mail";
+            flex-direction: column;
+            margin: 0px;
+        }
+        .box{
+            text-align: center;
+            @include tablet{
+                padding: 3px 0px;
+            }
+            a{
+                text-decoration: none;
+                img{
+                    height: 2rem;
+                    padding-left: 1rem;
+                    padding-right: 1rem;   
+                }   
+            }
+            p{
+                text-decoration: none;  
+            }
+        }
+    }
+    .grupo2{
+        text-align: center;
+    } 
+}

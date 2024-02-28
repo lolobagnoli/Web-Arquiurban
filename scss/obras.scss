@@ -1,0 +1,35 @@
+.portada_obras{/*obras*/
+    img{
+        width: 100%;
+    }
+}
+.main_inicio{
+    grid-area: main;
+    padding-bottom: 4rem;
+    h2{
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        padding-top: 10px;
+    }
+    #obras_cro{
+        padding-left: 2.5rem;
+        padding-bottom: 4rem;
+        .row{
+            margin-top: 2rem;
+            font-size: 1.2rem;
+            text-align: center;
+            width: 100%;
+            div{
+                img{
+                    width: 90%;
+                    height: 250px;
+                    opacity: .3;
+                    &:hover{
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}
