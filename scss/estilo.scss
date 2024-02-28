@@ -202,7 +202,7 @@ body{/*arranca nosotros*/
                             width: 100%;
                             div{
                                 img{
-                                    width: 400px;
+                                    width: 380px;
                                     height: 250px;
                                 }
                             }
@@ -284,6 +284,10 @@ body{/*arranca obras*/
                                         font-size: 1.4rem;
                                         margin: 40px;
                                         font-weight: bold;
+                                        @include tablet{
+                                            font-size: 0.5rem;
+                                            margin: 10px;  
+                                        }
                                         &:hover{
                                             color: black;
                                         }
@@ -387,6 +391,10 @@ body{/*arranca en ejecucion*/
                         .navbar-brand{
                             margin-left:10%;
                             margin-right: 20%;
+                            @include tablet {
+                                margin-left: 5%;
+                                margin-right: 10%;
+                            }
                             img{
                                 height: 12rem;
                             }
@@ -486,7 +494,7 @@ body{/*arranca en ejecucion*/
 
     }
 }/*termina en ejecucion*/
-body{/*arranca en ejecucion*/
+body{/*arranca contactanos*/
     font-family: 'Kanit', sans-serif;
     position: relative;    min-height: 100vh;
     padding-bottom: 20vh;
@@ -508,6 +516,9 @@ body{/*arranca en ejecucion*/
                             margin-right: 20%;
                             img{
                                 height: 12rem;
+                                @include tablet{
+                                    height: 8rem;
+                                }
                             }
                         }
                         .navbar-toggler{
@@ -573,8 +584,21 @@ body{/*arranca en ejecucion*/
                         padding: 1rem 0rem;
                         font-weight: bold;
                         padding-top: 5%;
+                        @include tablet{
+                            grid-template-rows: repeat(3,1fr);
+                            grid-template-columns: 1fr;
+                            grid-template-areas: 
+                            "cel"
+                            "redes" 
+                            "mail";
+                            flex-direction: column;
+                            margin: 0px;
+                        }
                         .box{
                             text-align: center;
+                            @include tablet{
+                                padding: 3px 0px;
+                            }
                             a{
                                 text-decoration: none;
                                 img{
@@ -595,51 +619,9 @@ body{/*arranca en ejecucion*/
 
     }
 }
-@media screen and (max-width:768px){
-    .img_obras{
-        flex-direction: column;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(5,1fr);
-        grid-template-areas: 
-         "la"
-         "jm1" 
-         "jm2"
-         "ay"
-         "zu";
-    }
-    .navbar-brand img{
-        height: 6rem;
-    }
-    .nav-link{
-        font-size: 1rem;
-        margin: 10px;
-    }
-    .nav-link:hover{
-        color:black;
-    }
-    .grupo1{
-        grid-template-rows: repeat(3,1fr);
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-        "cel"
-        "redes" 
-        "mail";
-        flex-direction: column;
-        margin: 0px;
-    }
-    .box{
-        padding: 5px 0px;
-    }
-}
-@media screen and (max-width:1024px){
-    .img_obras{
-        flex-direction: column;
-    }
-    .navbar-brand{
-        margin-left: 5%;
-        margin-right: 10%;
-    }
-}
+
+
+
 
 
 
