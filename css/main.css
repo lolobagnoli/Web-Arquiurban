@@ -1,494 +1,171 @@
-* {
-  padding: 0rem;
-  margin: 0rem;
-  box-sizing: border-box;
-}
-
-body { /*arranca el index*/
-  font-family: "Kanit", sans-serif;
-  position: relative;
-  min-height: 100vh;
-  padding-bottom: 20vh;
-}
-body .contenedor_inicio {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.01fr 0.01fr 0.01fr 0.01fr;
-  grid-auto-columns: 1fr;
-  grid-auto-flow: row;
-  grid-template-areas: "header" "portada" "main" "footer";
-}
-body .contenedor_inicio #menu .container-fluid .navbar-brand {
-  margin-left: 10%;
-  margin-right: 20%;
-}
-body .contenedor_inicio #menu .container-fluid .navbar-brand img {
-  height: 12rem;
-}
-body .contenedor_inicio #menu .container-fluid .navbar-toggler {
-  margin-right: 1rem;
-}
-body .contenedor_inicio #menu .container-fluid #navbarNav .navbar-nav .nav-item .nav-link {
-  color: #8b8784;
-  font-size: 1.4rem;
-  margin: 40px;
-  font-weight: bold;
-}
-body .contenedor_inicio #menu .container-fluid #navbarNav .navbar-nav .nav-item .nav-link:hover {
-  color: black;
-}
-body .contenedor_inicio .main_inicio {
+.main_inicio { /*index*/
   grid-area: main;
   padding-bottom: 4rem;
 }
-body .contenedor_inicio .main_inicio h2 {
+.main_inicio h2 {
   text-align: center;
   color: black;
   font-weight: bold;
   padding-top: 10px;
 }
-body .contenedor_inicio .main_inicio #inicio_obras {
+.main_inicio #inicio_obras {
   padding-left: 2.5rem;
 }
-body .contenedor_inicio .main_inicio #inicio_obras .row {
+.main_inicio #inicio_obras .row {
   margin-top: 2rem;
   font-size: 1.2rem;
   text-align: center;
   width: 100%;
 }
-body .contenedor_inicio .main_inicio #inicio_obras .row img {
+.main_inicio #inicio_obras .row img {
   width: 90%;
   height: 250px;
 }
-body .contenedor_inicio .footer {
-  grid-area: footer;
-  background-color: #8b8784;
-  color: white;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-body .contenedor_inicio .footer .grupo1 {
-  max-width: 1200px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: "cel redes mail";
-  padding: 1rem 0rem;
-  font-weight: bold;
-  padding-top: 5%;
-}
-body .contenedor_inicio .footer .grupo1 .box {
-  text-align: center;
-}
-body .contenedor_inicio .footer .grupo1 .box a {
-  text-decoration: none;
-}
-body .contenedor_inicio .footer .grupo1 .box a img {
-  height: 2rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-body .contenedor_inicio .footer .grupo1 .box p {
-  text-decoration: none;
-}
-body .contenedor_inicio .footer .grupo2 {
-  text-align: center;
-}
 
-/*termina el index*/
-body { /*arranca nosotros*/
-  font-family: "Kanit", sans-serif;
-  position: relative;
-  min-height: 100vh;
-  padding-bottom: 20vh;
-}
-body .contenedor_inicio {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.01fr 0.01fr 0.01fr 0.01fr;
-  grid-auto-columns: 1fr;
-  grid-auto-flow: row;
-  grid-template-areas: "header" "portada" "main" "footer";
-}
-body .contenedor_inicio #menu .container-fluid .navbar-brand {
-  margin-left: 10%;
-  margin-right: 20%;
-}
-body .contenedor_inicio #menu .container-fluid .navbar-brand img {
-  height: 12rem;
-}
-body .contenedor_inicio #menu .container-fluid .navbar-toggler {
-  margin-right: 1rem;
-}
-body .contenedor_inicio #menu .container-fluid #navbarNav .navbar-nav .nav-item .nav-link {
-  color: #8b8784;
-  font-size: 1.4rem;
-  margin: 40px;
-  font-weight: bold;
-}
-body .contenedor_inicio #menu .container-fluid #navbarNav .navbar-nav .nav-item .nav-link:hover {
-  color: black;
-}
-body .contenedor_inicio h2 {
+h2 { /*nosotros*/
   text-align: center;
   color: black;
   font-weight: bold;
   padding-top: 10px;
 }
-body .contenedor_inicio .valores_titulo {
+
+.valores_titulo {
   padding-left: 3rem;
   font-weight: bold;
 }
-body .contenedor_inicio section div .valores p {
+
+section div .valores p {
   padding-left: 3rem;
   font-size: 1.3rem;
   padding-right: 3rem;
 }
-body .contenedor_inicio section div .valores ul {
+section div .valores ul {
   list-style-type: none;
   padding-left: 4rem;
   font-weight: bold;
   font-size: 1.2rem;
 }
-body .contenedor_inicio .main_nosotros .hacemos_titulo {
+
+.main_nosotros .hacemos_titulo {
   font-weight: bold;
   padding-top: 2rem;
   padding-left: 3rem;
   color: black;
 }
-body .contenedor_inicio .main_nosotros p {
+.main_nosotros p {
   padding-left: 3rem;
   font-size: 1.3rem;
   padding-right: 3rem;
   color: black;
 }
-body .contenedor_inicio .main_nosotros #un {
+.main_nosotros #un {
   margin-bottom: 5rem;
 }
-body .contenedor_inicio .main_nosotros #un .row {
+.main_nosotros #un .row {
   margin-top: 2rem;
   font-size: 1.2rem;
   text-align: center;
   width: 100%;
 }
-body .contenedor_inicio .main_nosotros #un .row div img {
+.main_nosotros #un .row div img {
   width: 380px;
   height: 250px;
 }
-body .contenedor_inicio .footer {
-  grid-area: footer;
-  background-color: #8b8784;
-  color: white;
-  position: absolute;
-  bottom: 0;
+
+.portada_obras { /*obras*/ }
+.portada_obras img {
   width: 100%;
-}
-body .contenedor_inicio .footer .grupo1 {
-  max-width: 1200px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: "cel redes mail";
-  padding: 1rem 0rem;
-  font-weight: bold;
-  padding-top: 5%;
-}
-body .contenedor_inicio .footer .grupo1 .box {
-  text-align: center;
-}
-body .contenedor_inicio .footer .grupo1 .box a {
-  text-decoration: none;
-}
-body .contenedor_inicio .footer .grupo1 .box a img {
-  height: 2rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-body .contenedor_inicio .footer .grupo1 .box p {
-  text-decoration: none;
-}
-body .contenedor_inicio .footer .grupo2 {
-  text-align: center;
 }
 
-/*termina nosotros*/
-body { /*arranca obras*/
-  font-family: "Kanit", sans-serif;
-  position: relative;
-  min-height: 100vh;
-  padding-bottom: 20vh;
-}
-body .contenedor_inicio {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.01fr 0.01fr 0.01fr 0.01fr;
-  grid-auto-columns: 1fr;
-  grid-auto-flow: row;
-  grid-template-areas: "header" "portada" "main" "footer";
-}
-body .contenedor_inicio #menu .container-fluid .navbar-brand {
-  margin-left: 10%;
-  margin-right: 20%;
-}
-body .contenedor_inicio #menu .container-fluid .navbar-brand img {
-  height: 12rem;
-}
-body .contenedor_inicio #menu .container-fluid .navbar-toggler {
-  margin-right: 1rem;
-}
-body .contenedor_inicio #menu .container-fluid #navbarNav .navbar-nav .nav-item .nav-link {
-  color: #8b8784;
-  font-size: 1.4rem;
-  margin: 40px;
-  font-weight: bold;
-}
-@media screen and (max-width: 768px) {
-  body .contenedor_inicio #menu .container-fluid #navbarNav .navbar-nav .nav-item .nav-link {
-    font-size: 0.5rem;
-    margin: 10px;
-  }
-}
-body .contenedor_inicio #menu .container-fluid #navbarNav .navbar-nav .nav-item .nav-link:hover {
-  color: black;
-}
-body .contenedor_inicio .portada_obras img {
-  width: 100%;
-}
-body .contenedor_inicio .main_inicio {
+.main_inicio {
   grid-area: main;
   padding-bottom: 4rem;
 }
-body .contenedor_inicio .main_inicio h2 {
+.main_inicio h2 {
   text-align: center;
   color: black;
   font-weight: bold;
   padding-top: 10px;
 }
-body .contenedor_inicio .main_inicio #obras_cro {
+.main_inicio #obras_cro {
   padding-left: 2.5rem;
   padding-bottom: 4rem;
 }
-body .contenedor_inicio .main_inicio #obras_cro .row {
+.main_inicio #obras_cro .row {
   margin-top: 2rem;
   font-size: 1.2rem;
   text-align: center;
   width: 100%;
 }
-body .contenedor_inicio .main_inicio #obras_cro .row div img {
+.main_inicio #obras_cro .row div img {
   width: 90%;
   height: 250px;
   opacity: 0.3;
 }
-body .contenedor_inicio .main_inicio #obras_cro .row div img:hover {
+.main_inicio #obras_cro .row div img:hover {
   opacity: 1;
 }
-body .contenedor_inicio .footer {
-  grid-area: footer;
-  background-color: #8b8784;
-  color: white;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-body .contenedor_inicio .footer .grupo1 {
-  max-width: 1200px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: "cel redes mail";
-  padding: 1rem 0rem;
-  font-weight: bold;
-  padding-top: 5%;
-}
-body .contenedor_inicio .footer .grupo1 .box {
-  text-align: center;
-}
-body .contenedor_inicio .footer .grupo1 .box a {
-  text-decoration: none;
-}
-body .contenedor_inicio .footer .grupo1 .box a img {
-  height: 2rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-body .contenedor_inicio .footer .grupo1 .box p {
-  text-decoration: none;
-}
-body .contenedor_inicio .footer .grupo2 {
-  text-align: center;
-}
 
-/*termina obras*/
-body { /*arranca en ejecucion*/
-  font-family: "Kanit", sans-serif;
-  position: relative;
-  min-height: 100vh;
-  padding-bottom: 20vh;
-}
-body .contenedor_inicio {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.01fr 0.01fr 0.01fr 0.01fr;
-  grid-auto-columns: 1fr;
-  grid-auto-flow: row;
-  grid-template-areas: "header" "portada" "main" "footer";
-}
-body .contenedor_inicio #menu .container-fluid .navbar-brand {
-  margin-left: 10%;
-  margin-right: 20%;
-}
-@media screen and (max-width: 768px) {
-  body .contenedor_inicio #menu .container-fluid .navbar-brand {
-    margin-left: 5%;
-    margin-right: 10%;
-  }
-}
-body .contenedor_inicio #menu .container-fluid .navbar-brand img {
-  height: 12rem;
-}
-body .contenedor_inicio #menu .container-fluid .navbar-toggler {
-  margin-right: 1rem;
-}
-body .contenedor_inicio #menu .container-fluid #navbarNav .navbar-nav .nav-item .nav-link {
-  color: #8b8784;
-  font-size: 1.4rem;
-  margin: 40px;
-  font-weight: bold;
-}
-body .contenedor_inicio #menu .container-fluid #navbarNav .navbar-nav .nav-item .nav-link:hover {
-  color: black;
-}
-body .contenedor_inicio main section h2 {
+main { /*enej*/ }
+main section h2 {
   text-align: center;
   color: black;
   font-weight: bold;
   padding-top: 10px;
 }
-body .contenedor_inicio main .port_enej {
+main .port_enej {
   width: 100%;
 }
-body .contenedor_inicio main .texto_enej {
+main .texto_enej {
   padding: 0rem 2rem;
   color: #8b8784;
 }
-body .contenedor_inicio main .brochure {
+main .brochure {
   text-align: center;
 }
-body .contenedor_inicio main #galeria {
+main #galeria {
   margin-bottom: 1rem;
 }
-body .contenedor_inicio main #galeria .row {
+main #galeria .row {
   margin-top: 2rem;
   font-size: 1.2rem;
   text-align: center;
   width: 100%;
 }
-body .contenedor_inicio main #galeria .row div {
+main #galeria .row div {
   padding: 25px;
 }
-body .contenedor_inicio main #galeria .row div img {
+main #galeria .row div img {
   width: 100%;
   height: 250px;
 }
-body .contenedor_inicio .footer {
-  grid-area: footer;
-  background-color: #8b8784;
-  color: white;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-body .contenedor_inicio .footer .grupo1 {
-  max-width: 1200px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: "cel redes mail";
-  padding: 1rem 0rem;
-  font-weight: bold;
-  padding-top: 5%;
-}
-body .contenedor_inicio .footer .grupo1 .box {
-  text-align: center;
-}
-body .contenedor_inicio .footer .grupo1 .box a {
-  text-decoration: none;
-}
-body .contenedor_inicio .footer .grupo1 .box a img {
-  height: 2rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-body .contenedor_inicio .footer .grupo1 .box p {
-  text-decoration: none;
-}
-body .contenedor_inicio .footer .grupo2 {
-  text-align: center;
-}
 
-/*termina en ejecucion*/
-body { /*arranca contactanos*/
-  font-family: "Kanit", sans-serif;
-  position: relative;
-  min-height: 100vh;
-  padding-bottom: 20vh;
-}
-body .contenedor_inicio {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.01fr 0.01fr 0.01fr 0.01fr;
-  grid-auto-columns: 1fr;
-  grid-auto-flow: row;
-  grid-template-areas: "header" "portada" "main" "footer";
-}
-body .contenedor_inicio #menu .container-fluid .navbar-brand {
-  margin-left: 10%;
-  margin-right: 20%;
-}
-body .contenedor_inicio #menu .container-fluid .navbar-brand img {
-  height: 12rem;
-}
-@media screen and (max-width: 768px) {
-  body .contenedor_inicio #menu .container-fluid .navbar-brand img {
-    height: 8rem;
-  }
-}
-body .contenedor_inicio #menu .container-fluid .navbar-toggler {
-  margin-right: 1rem;
-}
-body .contenedor_inicio #menu .container-fluid #navbarNav .navbar-nav .nav-item .nav-link {
-  color: #8b8784;
-  font-size: 1.4rem;
-  margin: 40px;
-  font-weight: bold;
-}
-body .contenedor_inicio #menu .container-fluid #navbarNav .navbar-nav .nav-item .nav-link:hover {
-  color: black;
-}
-body .contenedor_inicio h2 {
+h2 { /*contactanos*/
   text-align: center;
   color: black;
   font-weight: bold;
   padding-top: 10px;
 }
-body .contenedor_inicio section .row {
+
+section .row {
   margin-top: 2rem;
   font-size: 1.2rem;
   text-align: center;
   width: 100%;
 }
-body .contenedor_inicio section .row img {
+section .row img {
   height: 3rem;
   width: 3rem;
 }
-body .contenedor_inicio div #form {
+
+div #form {
   text-align: left;
   margin: 1rem;
   padding-left: 1rem; /*arreglar*/
   padding-bottom: 6.5rem;
 }
-body .contenedor_inicio .footer {
+
+.footer {
   grid-area: footer;
   background-color: #8b8784;
   color: white;
@@ -496,7 +173,7 @@ body .contenedor_inicio .footer {
   bottom: 0;
   width: 100%;
 }
-body .contenedor_inicio .footer .grupo1 {
+.footer .grupo1 {
   max-width: 1200px;
   margin: auto;
   display: grid;
@@ -507,7 +184,7 @@ body .contenedor_inicio .footer .grupo1 {
   padding-top: 5%;
 }
 @media screen and (max-width: 768px) {
-  body .contenedor_inicio .footer .grupo1 {
+  .footer .grupo1 {
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: 1fr;
     grid-template-areas: "cel" "redes" "mail";
@@ -515,26 +192,324 @@ body .contenedor_inicio .footer .grupo1 {
     margin: 0px;
   }
 }
-body .contenedor_inicio .footer .grupo1 .box {
+.footer .grupo1 .box {
   text-align: center;
 }
 @media screen and (max-width: 768px) {
-  body .contenedor_inicio .footer .grupo1 .box {
+  .footer .grupo1 .box {
     padding: 3px 0px;
   }
 }
-body .contenedor_inicio .footer .grupo1 .box a {
+.footer .grupo1 .box a {
   text-decoration: none;
 }
-body .contenedor_inicio .footer .grupo1 .box a img {
+.footer .grupo1 .box a img {
   height: 2rem;
   padding-left: 1rem;
   padding-right: 1rem;
 }
-body .contenedor_inicio .footer .grupo1 .box p {
+.footer .grupo1 .box p {
   text-decoration: none;
 }
-body .contenedor_inicio .footer .grupo2 {
+.footer .grupo2 {
+  text-align: center;
+}
+
+* {
+  padding: 0rem;
+  margin: 0rem;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 20vh;
+}
+body .contenedor_inicio {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.01fr 0.01fr 0.01fr 0.01fr;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: row;
+  grid-template-areas: "header" "portada" "main" "footer";
+}
+body .contenedor_inicio #menu .container-fluid .navbar-brand {
+  margin-left: 10%;
+  margin-right: 20%;
+}
+body .contenedor_inicio #menu .container-fluid .navbar-brand img {
+  height: 12rem;
+}
+body .contenedor_inicio #menu .container-fluid .navbar-toggler {
+  margin-right: 1rem;
+}
+body .contenedor_inicio #menu .container-fluid #navbarNav .navbar-nav .nav-item .nav-link {
+  color: #8b8784;
+  font-size: 1.4rem;
+  margin: 40px;
+  font-weight: bold;
+}
+body .contenedor_inicio #menu .container-fluid #navbarNav .navbar-nav .nav-item .nav-link:hover {
+  color: black;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #8b8784;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.footer .grupo1 {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "cel redes mail";
+  padding: 1rem 0rem;
+  font-weight: bold;
+  padding-top: 5%;
+}
+.footer .grupo1 .box {
+  text-align: center;
+}
+.footer .grupo1 .box a {
+  text-decoration: none;
+}
+.footer .grupo1 .box a img {
+  height: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.footer .grupo1 .box p {
+  text-decoration: none;
+}
+.footer .grupo2 {
+  text-align: center;
+}
+
+.main_inicio { /*index*/
+  grid-area: main;
+  padding-bottom: 4rem;
+}
+.main_inicio h2 {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.main_inicio #inicio_obras {
+  padding-left: 2.5rem;
+}
+.main_inicio #inicio_obras .row {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 100%;
+}
+.main_inicio #inicio_obras .row img {
+  width: 90%;
+  height: 250px;
+}
+
+h1 { /*nosotros*/
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 2.3rem;
+  padding-top: 10px;
+}
+
+.valores_titulo {
+  padding-left: 3rem;
+  font-weight: bold;
+}
+
+section div .valores p {
+  padding-left: 3rem;
+  font-size: 1.3rem;
+  padding-right: 3rem;
+}
+section div .valores ul {
+  list-style-type: none;
+  padding-left: 4rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.main_nosotros .hacemos_titulo {
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  color: black;
+}
+.main_nosotros p {
+  padding-left: 3rem;
+  font-size: 1.3rem;
+  padding-right: 3rem;
+  color: black;
+}
+.main_nosotros #un {
+  margin-bottom: 5rem;
+}
+.main_nosotros #un .row {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 100%;
+}
+.main_nosotros #un .row div img {
+  width: 380px;
+  height: 250px;
+}
+
+.portada_obras { /*obras*/ }
+.portada_obras img {
+  width: 100%;
+}
+
+.main_inicio {
+  grid-area: main;
+  padding-bottom: 4rem;
+}
+.main_inicio h1 {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 2.3rem;
+  padding-top: 10px;
+}
+.main_inicio #obras_cro {
+  padding-left: 2.5rem;
+  padding-bottom: 4rem;
+}
+.main_inicio #obras_cro .row {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 100%;
+}
+.main_inicio #obras_cro .row div img {
+  width: 90%;
+  height: 250px;
+  opacity: 0.3;
+  transition: 2s;
+}
+.main_inicio #obras_cro .row div img:hover {
+  opacity: 1;
+  transition: 2s;
+}
+
+main { /*enej*/ }
+main section h2 {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  padding-top: 10px;
+}
+main .port_enej {
+  width: 100%;
+}
+main .texto_enej {
+  padding: 0rem 2rem;
+  color: #8b8784;
+}
+main .brochure {
+  text-align: center;
+}
+main #galeria {
+  margin-bottom: 1rem;
+}
+main #galeria .row {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 100%;
+}
+main #galeria .row div {
+  padding: 25px;
+}
+main #galeria .row div img {
+  width: 100%;
+  height: 250px;
+}
+
+h1 { /*contactanos*/
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 2.3rem;
+  padding-top: 10px;
+}
+
+section .row {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 100%;
+}
+section .row img {
+  height: 3rem;
+  width: 3rem;
+}
+
+div #form {
+  text-align: left;
+  margin: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 6.5rem;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #8b8784;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.footer .grupo1 {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "cel redes mail";
+  padding: 1rem 0rem;
+  font-weight: bold;
+  padding-top: 5%;
+}
+@media screen and (max-width: 768px) {
+  .footer .grupo1 {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+    grid-template-areas: "cel" "redes" "mail";
+    flex-direction: column;
+    margin: 0px;
+  }
+}
+.footer .grupo1 .box {
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .footer .grupo1 .box {
+    padding: 3px 0px;
+  }
+}
+.footer .grupo1 .box a {
+  text-decoration: none;
+}
+.footer .grupo1 .box a img {
+  height: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.footer .grupo1 .box p {
+  text-decoration: none;
+}
+.footer .grupo2 {
   text-align: center;
 }
 

@@ -1,0 +1,35 @@
+main { /*enej*/ }
+main section h2 {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  padding-top: 10px;
+}
+main .port_enej {
+  width: 100%;
+}
+main .texto_enej {
+  padding: 0rem 2rem;
+  color: #8b8784;
+}
+main .brochure {
+  text-align: center;
+}
+main #galeria {
+  margin-bottom: 1rem;
+}
+main #galeria .row {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 100%;
+}
+main #galeria .row div {
+  padding: 25px;
+}
+main #galeria .row div img {
+  width: 100%;
+  height: 250px;
+}
+
+/*# sourceMappingURL=enej.css.map */

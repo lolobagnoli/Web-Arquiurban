@@ -1,11 +1,17 @@
 /* Error: Undefined mixin.
  *     ,
- * 287 | /                                         @include tablet{
- * 288 | |                                             font-size: 0.5rem;
- * 289 | |                                             margin: 10px;  
- * 290 | \                                         }
+ * 194 | /                         @include tablet{
+ * 195 | |                             grid-template-rows: repeat(3,1fr);
+ * 196 | |                             grid-template-columns: 1fr;
+ * 197 | |                             grid-template-areas: 
+ * 198 | |                             "cel"
+ * 199 | |                             "redes" 
+ * 200 | |                             "mail";
+ * 201 | |                             flex-direction: column;
+ * 202 | |                             margin: 0px;
+ * 203 | \                         }
  *     '
- *   scss\estilo.scss 287:41  root stylesheet */
+ *   scss\estilo.scss 194:25  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -15,5 +21,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined mixin.\a     \2577 \a 287 \2502  \250c                                          @include tablet{\a 288 \2502  \2502                                              font-size: 0.5rem;\a 289 \2502  \2502                                              margin: 10px;  \a 290 \2502  \2514                                          }\a     \2575 \a   scss\\estilo.scss 287:41  root stylesheet";
+  content: 'Error: Undefined mixin.\a     \2577 \a 194 \2502  \250c                          @include tablet{\a 195 \2502  \2502                              grid-template-rows: repeat(3,1fr);\a 196 \2502  \2502                              grid-template-columns: 1fr;\a 197 \2502  \2502                              grid-template-areas: \a 198 \2502  \2502                              "cel"\a 199 \2502  \2502                              "redes" \a 200 \2502  \2502                              "mail";\a 201 \2502  \2502                              flex-direction: column;\a 202 \2502  \2502                              margin: 0px;\a 203 \2502  \2514                          }\a     \2575 \a   scss\\estilo.scss 194:25  root stylesheet';
 }

@@ -1,0 +1,37 @@
+.footer {
+  grid-area: footer;
+  background-color: #8b8784;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.footer .grupo1 {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "cel redes mail";
+  padding: 1rem 0rem;
+  font-weight: bold;
+  padding-top: 5%;
+}
+.footer .grupo1 .box {
+  text-align: center;
+}
+.footer .grupo1 .box a {
+  text-decoration: none;
+}
+.footer .grupo1 .box a img {
+  height: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.footer .grupo1 .box p {
+  text-decoration: none;
+}
+.footer .grupo2 {
+  text-align: center;
+}
+
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,25 @@
+.main_inicio { /*index*/
+  grid-area: main;
+  padding-bottom: 4rem;
+}
+.main_inicio h2 {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.main_inicio #inicio_obras {
+  padding-left: 2.5rem;
+}
+.main_inicio #inicio_obras .row {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 100%;
+}
+.main_inicio #inicio_obras .row img {
+  width: 90%;
+  height: 250px;
+}
+
+/*# sourceMappingURL=index.css.map */

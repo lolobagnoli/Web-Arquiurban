@@ -1,0 +1,38 @@
+.portada_obras { /*obras*/ }
+.portada_obras img {
+  width: 100%;
+}
+
+.main_inicio {
+  grid-area: main;
+  padding-bottom: 4rem;
+}
+.main_inicio h1 {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 2.3rem;
+  padding-top: 10px;
+}
+.main_inicio #obras_cro {
+  padding-left: 2.5rem;
+  padding-bottom: 4rem;
+}
+.main_inicio #obras_cro .row {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 100%;
+}
+.main_inicio #obras_cro .row div img {
+  width: 90%;
+  height: 250px;
+  opacity: 0.3;
+  transition: 2s;
+}
+.main_inicio #obras_cro .row div img:hover {
+  opacity: 1;
+  transition: 2s;
+}
+
+/*# sourceMappingURL=obras.css.map */

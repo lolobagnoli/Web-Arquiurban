@@ -1,0 +1,25 @@
+/* Error: Undefined mixin.
+ *    ,
+ * 45 | /         @include tablet{
+ * 46 | |             grid-template-rows: repeat(3,1fr);
+ * 47 | |             grid-template-columns: 1fr;
+ * 48 | |             grid-template-areas: 
+ * 49 | |             "cel"
+ * 50 | |             "redes" 
+ * 51 | |             "mail";
+ * 52 | |             flex-direction: column;
+ * 53 | |             margin: 0px;
+ * 54 | \         }
+ *    '
+ *   scss\contactanos.scss 45:9  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: Undefined mixin.\a    \2577 \a 45 \2502  \250c          @include tablet{\a 46 \2502  \2502              grid-template-rows: repeat(3,1fr);\a 47 \2502  \2502              grid-template-columns: 1fr;\a 48 \2502  \2502              grid-template-areas: \a 49 \2502  \2502              "cel"\a 50 \2502  \2502              "redes" \a 51 \2502  \2502              "mail";\a 52 \2502  \2502              flex-direction: column;\a 53 \2502  \2502              margin: 0px;\a 54 \2502  \2514          }\a    \2575 \a   scss\\contactanos.scss 45:9  root stylesheet';
+}
