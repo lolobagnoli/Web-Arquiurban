@@ -23,9 +23,12 @@ body{
                 .container-fluid{
                     .navbar-brand{
                         margin-left:10%;
-                        margin-right: 20%;
+                        margin-right: 15%;
                         img{
                             height: 12rem;
+                            @include tablet{
+                                height: 8rem;
+                            }
                         }
                     }
                     .navbar-toggler{

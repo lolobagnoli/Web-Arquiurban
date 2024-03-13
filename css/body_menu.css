@@ -1,41 +1,18 @@
-* {
-  padding: 0rem;
-  margin: 0rem;
-  box-sizing: border-box;
-}
+/* Error: Undefined mixin.
+ *    ,
+ * 29 | /                             @include tablet{
+ * 30 | |                                 height: 8rem;
+ * 31 | \                             }
+ *    '
+ *   scss\body_menu.scss 29:29  root stylesheet */
 
-body {
-  font-family: "Kanit", sans-serif;
-  position: relative;
-  min-height: 100vh;
-  padding-bottom: 20vh;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a    \2577 \a 29 \2502  \250c                              @include tablet{\a 30 \2502  \2502                                  height: 8rem;\a 31 \2502  \2514                              }\a    \2575 \a   scss\\body_menu.scss 29:29  root stylesheet";
 }
-body .contenedor_inicio {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.01fr 0.01fr 0.01fr 0.01fr;
-  grid-auto-columns: 1fr;
-  grid-auto-flow: row;
-  grid-template-areas: "header" "portada" "main" "footer";
-}
-body .contenedor_inicio #menu .container-fluid .navbar-brand {
-  margin-left: 10%;
-  margin-right: 20%;
-}
-body .contenedor_inicio #menu .container-fluid .navbar-brand img {
-  height: 12rem;
-}
-body .contenedor_inicio #menu .container-fluid .navbar-toggler {
-  margin-right: 1rem;
-}
-body .contenedor_inicio #menu .container-fluid #navbarNav .navbar-nav .nav-item .nav-link {
-  color: #8b8784;
-  font-size: 1.4rem;
-  margin: 40px;
-  font-weight: bold;
-}
-body .contenedor_inicio #menu .container-fluid #navbarNav .navbar-nav .nav-item .nav-link:hover {
-  color: black;
-}
-
-/*# sourceMappingURL=body_menu.css.map */
